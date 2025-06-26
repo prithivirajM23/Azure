@@ -10,6 +10,9 @@
 		},
 		"linkedserviceDL_properties_typeProperties_url": {
 			"value": "https://storagedatafactoryjithu.dfs.core.windows.net/"
+		},
+		"ManagerTriger_properties_typeProperties_scope": {
+			"value": "/subscriptions/7ad20f33-fdbf-40cd-b74f-27a17c673272/resourceGroups/azurejobJuly/providers/Microsoft.Storage/storageAccounts/storagedatafactoryjithu"
 		}
 	}
 }

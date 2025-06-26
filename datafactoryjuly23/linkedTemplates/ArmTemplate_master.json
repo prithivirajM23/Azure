@@ -15,6 +15,10 @@
 			"type": "string",
 			"defaultValue": "https://storagedatafactoryjithu.dfs.core.windows.net/"
 		},
+		"ManagerTriger_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/7ad20f33-fdbf-40cd-b74f-27a17c673272/resourceGroups/azurejobJuly/providers/Microsoft.Storage/storageAccounts/storagedatafactoryjithu"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +51,9 @@
 					},
 					"linkedserviceDL_properties_typeProperties_url": {
 						"value": "[parameters('linkedserviceDL_properties_typeProperties_url')]"
+					},
+					"ManagerTriger_properties_typeProperties_scope": {
+						"value": "[parameters('ManagerTriger_properties_typeProperties_scope')]"
 					}
 				}
 			},
